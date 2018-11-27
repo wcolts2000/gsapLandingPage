@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Arapey");
+body {
+  margin: 0;
+  font-family: "Arapey";
+}
+
+body h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 30%;
+}
+
+body section {
+  padding: 3em;
+  height: 100vh;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body blockquote {
+  font-size: 2em;
+  width: 30%;
+  margin-top: 17%;
+  position: absolute;
+}
+
+body blockquote span {
+  width: 100%;
+  background: red;
+  display: block;
+  height: 5px;
+  margin-top: 20px;
+}
+
+body img {
+  position: absolute;
+}
+
+body img:nth-of-type(1) {
+  width: 40%;
+  right: 0;
+  top: 20%;
+}
+
+body img:nth-of-type(2) {
+  width: 25%;
+  right: 40%;
+  top: 29%;
+  margin-top: 15%;
+}
+
+.disclaimer {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.sticky {
+  background: white !important;
+}
+
+section:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 5px solid lightgray;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=anim.css.map */
